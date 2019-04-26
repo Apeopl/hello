@@ -10,6 +10,7 @@ class SnippetSerializer(serializers.Serializer):
     language = serializers.ChoiceField(choices=LANGUAGE_CHOICES, default='python')
     style = serializers.ChoiceField(choices=STYLE_CHOICES, default='friendly')
 
+
     def create(self, validated_data):
         return Snippet.objects.create(**validated_data)
 

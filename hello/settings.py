@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hellopython.apps.HellopythonConfig',
+    'rabbitmq_test.apps.RabbitmqTestConfig',
 ]
 
 MIDDLEWARE = [
