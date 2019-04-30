@@ -2,3 +2,8 @@ hello test
 branch dev
 branch testing
 fix hot bug
+git rebase -i edit
+fix bug iss53
+step one
+step three
+step two
