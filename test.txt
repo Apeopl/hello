@@ -1,6 +1,3 @@
 hello test
-<<<<<<< HEAD
 branch dev
-=======
 branch testing
->>>>>>> testing
